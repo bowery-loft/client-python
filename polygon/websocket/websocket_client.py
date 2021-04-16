@@ -10,7 +10,7 @@ CRYPTO_CLUSTER = "crypto"
 
 
 class WebSocketClient:
-    DEFAULT_HOST = "socket.polygon.io"
+    DEFAULT_HOST = "delayed.polygon.io"
 
     # TODO: Either an instance of the client couples 1:1 with the cluster or an instance of the Client couples 1:3 with
     #  the 3 possible clusters (I think I like client per, but then a problem is the user can make multiple clients for
